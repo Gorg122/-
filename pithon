@@ -1,0 +1,51 @@
+
+PATH_TO_DATA =''
+path_to_csv_files = '3users_toy'
+files = glob(path_to_csv_files+'/*.csv')
+PATH_TO_DATA =''
+path_to_csv_files = '3users_toy'
+files = glob(path_to_csv_files+'/*.csv')
+In [9]:
+
+files
+Out[9]:
+['3users_toy\\user1.csv', '3users_toy\\user2.csv', '3users_toy\\user3.csv']
+In [11]:
+
+f
+f=open(files[0])
+In [12]:
+
+def prepare_train_set(path_to_csv_files, session_length=10):
+    ''''''
+In [14]:
+
+for line in f:
+    print (line)
+for line in f:
+    print (line)
+0001,2013-11-15T09:33:04,oracle.com
+
+0001,2013-11-15T09:52:48,oracle.com
+
+0001,2013-11-15T11:37:26,geo.mozilla.org
+
+0001,2013-11-15T11:40:32,oracle.com
+
+0001,2013-11-15T11:40:34,google.com
+
+0001,2013-11-15T11:40:35,accounts.google.com
+
+0001,2013-11-15T11:40:37,mail.google.com
+
+0001,2013-11-15T11:40:40,apis.google.com
+
+0001,2013-11-15T11:41:35,plus.google.com
+
+0001,2013-11-15T12:40:35,vk.com
+
+0001,2013-11-15T12:40:37,google.com
+
+0001,2013-11-15T12:40:40,google.com
+
+0001,2013-11-15T12:41:35,google.com
